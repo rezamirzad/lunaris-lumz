@@ -21,6 +21,14 @@ export interface TranslationInterface {
     price: string;
     features: string[];
   };
+  contact: {
+    title: string;
+    name: string;
+    email: string;
+    message: string;
+    send: string;
+    success: string;
+  };
 }
 
 export const translations: Record<Language, TranslationInterface> = {
@@ -84,6 +92,14 @@ export const translations: Record<Language, TranslationInterface> = {
         "Modifs texte (15 min/mois)",
       ],
     },
+    contact: {
+      title: "Contactez-moi",
+      name: "Nom",
+      email: "Email",
+      message: "Message",
+      send: "Envoyer",
+      success: "Message envoyé avec succès !",
+    },
   },
   EN: {
     heroTitle: "LUMZ",
@@ -139,6 +155,14 @@ export const translations: Record<Language, TranslationInterface> = {
         "Regular backups",
         "Text updates (15 min/month)",
       ],
+    },
+    contact: {
+      title: "Contact Me",
+      name: "Name",
+      email: "Email",
+      message: "Message",
+      send: "Send",
+      success: "Message sent successfully!",
     },
   },
   DE: {
@@ -201,6 +225,14 @@ export const translations: Record<Language, TranslationInterface> = {
         "Textanpassungen (15 Min/Monat)",
       ],
     },
+    contact: {
+      title: "Kontaktieren Sie mich",
+      name: "Name",
+      email: "Email",
+      message: "Nachricht",
+      send: "Senden",
+      success: "Nachricht erfolgreich gesendet!",
+    },
   },
   LU: {
     heroTitle: "LUMZ",
@@ -258,6 +290,14 @@ export const translations: Record<Language, TranslationInterface> = {
         "Regelméisseg Backups",
         "Text Ännerungen (15 Min/Mount)",
       ],
+    },
+    contact: {
+      title: "Kontaktéiert mech",
+      name: "Numm",
+      email: "Email",
+      message: "Noricht",
+      send: "Schécken",
+      success: "Noricht gouf geschéckt!",
     },
   },
 };

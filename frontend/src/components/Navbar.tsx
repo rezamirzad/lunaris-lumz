@@ -27,6 +27,9 @@ const Navbar = ({ currentLang, setLang, t }: NavbarProps) => {
             <a href="#tarifs" className="hover:text-white transition-colors">
               {t.tarifs}
             </a>
+            <a href="#contact" className="hover:text-white transition-colors">
+              Contact
+            </a>
           </div>
 
           <div className="flex gap-2 bg-zinc-900 p-1 rounded border border-gray-800">

@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -23,16 +24,16 @@ export default function Home() {
       <main>
         {/* Section d'accueil (Hero) */}
         <Hero t={t} />
-
         {/* Section des services proposés */}
         <Services t={t} />
-
-        {/* Grille tarifaire "Prix Voisin" */}
+        {/* Grille tarifaire */}
         <Pricing t={t} />
+        {/* Formulaire de contact */}
+        <Contact t={t} />
       </main>
 
       {/* Pied de page technique */}
-      <Footer />
+      <Footer t={t} />
     </div>
   );
 }
