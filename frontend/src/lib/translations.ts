@@ -42,12 +42,28 @@ export const translations: Record<Language, TranslationInterface> = {
     recommendedBadge: "Recommandé",
     serviceList: [
       {
-        title: "Performance & Design",
-        desc: "Sites ultra-rapides, épurés et optimisés pour mobiles.",
+        title: "Performance Next-Gen",
+        desc: "Nous développons des sites avec les dernières technologies pour garantir des temps de chargement instantanés. Un site rapide améliore radicalement votre SEO et réduit le taux d'abandon de vos clients.",
       },
       {
-        title: "Expertise Multilingue",
-        desc: "Configuration native FR / EN / DE / LU pour le marché local.",
+        title: "Écosystème Multilingue Natif",
+        desc: "Le marché luxembourgeois exige de la flexibilité. Nous intégrons nativement le Français, l'Anglais, l'Allemand et le Luxembourgeois pour que votre entreprise parle la langue de tous vos clients sans compromis.",
+      },
+      {
+        title: "Design Mobile-First & UX",
+        desc: "Plus de 80% des recherches locales se font sur smartphone. Nos interfaces sont conçues pour être fluides, intuitives et élégantes, offrant une expérience utilisateur premium sur tous les écrans.",
+      },
+      {
+        title: "Optimisation SEO & Visibilité",
+        desc: "Avoir un beau site est inutile s'il est invisible. Nous optimisons la structure technique de votre site pour que Google vous place naturellement en tête des recherches locales au Grand-Duché.",
+      },
+      {
+        title: "Propriété Totale & Indépendance",
+        desc: "Contrairement aux agences classiques, vous restez propriétaire à 100% de votre code et de votre domaine. Pas de frais cachés, pas d'abonnement captif, une transparence totale.",
+      },
+      {
+        title: "Maintenance & Évolution Continue",
+        desc: "Le web évolue vite. Notre pack sérénité assure que votre site reste sécurisé, à jour et performant, avec des modifications illimitées pour accompagner la croissance de votre activité.",
       },
     ],
     pricing: [
@@ -98,12 +114,12 @@ export const translations: Record<Language, TranslationInterface> = {
       ],
     },
     contact: {
-      title: "Contactez-moi",
-      name: "Nom",
-      email: "Email",
-      message: "Message",
-      send: "Envoyer",
-      success: "Message envoyé avec succès !",
+      title: "Parlons de votre projet",
+      name: "Nom complet",
+      email: "Adresse e-mail",
+      message: "Parlez-nous de votre besoin...",
+      send: "Envoyer la demande",
+      success: "Votre message a été transmis avec succès !",
     },
   },
   EN: {
@@ -115,19 +131,35 @@ export const translations: Record<Language, TranslationInterface> = {
     recommendedBadge: "Recommended",
     serviceList: [
       {
-        title: "Performance & Design",
-        desc: "Ultra-fast, sleek, and mobile-optimized websites.",
+        title: "Next-Gen Performance",
+        desc: "We build websites with the latest technologies to guarantee instant loading times. A fast site radically improves your SEO and reduces your bounce rate.",
       },
       {
-        title: "Multilingual Expertise",
-        desc: "Native FR / EN / DE / LU setup for the local market.",
+        title: "Native Multilingual Ecosystem",
+        desc: "The Luxembourg market requires flexibility. We natively integrate French, English, German, and Luxembourgish so your business speaks to all your customers without compromise.",
+      },
+      {
+        title: "Mobile-First Design & UX",
+        desc: "Over 80% of local searches are done on smartphones. Our interfaces are designed to be fluid, intuitive, and elegant, offering a premium user experience on all screens.",
+      },
+      {
+        title: "SEO Optimization & Visibility",
+        desc: "A beautiful site is useless if it's invisible. We optimize the technical structure of your site so that Google naturally places you at the top of local searches in the Grand Duchy.",
+      },
+      {
+        title: "Total Ownership & Independence",
+        desc: "Unlike traditional agencies, you remain 100% owner of your code and domain. No hidden fees, no captive subscriptions, total transparency.",
+      },
+      {
+        title: "Continuous Maintenance & Evolution",
+        desc: "The web evolves fast. Our serenity pack ensures your site stays secure, up-to-date, and high-performing, with unlimited changes to support your business growth.",
       },
     ],
     pricing: [
       {
         name: "Start",
         price: "450€",
-        ideal: "Freelancers & Small Biz. Perfect for a quick launch.",
+        ideal: "Craftsmen & Freelancers. Ideal for a quick launch.",
         features: [
           "Delivered in 7 days",
           "Ultra-fast One-Page site",
@@ -171,12 +203,12 @@ export const translations: Record<Language, TranslationInterface> = {
       ],
     },
     contact: {
-      title: "Contact Me",
-      name: "Name",
-      email: "Email",
-      message: "Message",
-      send: "Send",
-      success: "Message sent successfully!",
+      title: "Let's talk about your project",
+      name: "Full Name",
+      email: "Email Address",
+      message: "Tell us about your needs...",
+      send: "Send Request",
+      success: "Your message has been sent successfully!",
     },
   },
   DE: {
@@ -188,19 +220,35 @@ export const translations: Record<Language, TranslationInterface> = {
     recommendedBadge: "Empfohlen",
     serviceList: [
       {
-        title: "Performance & Design",
-        desc: "Ultraschnelle, moderne und mobil-optimierte Websites.",
+        title: "Next-Gen Performance",
+        desc: "Wir entwickeln Websites mit den neuesten Technologien, um sofortige Ladezeiten zu garantieren. Eine schnelle Website verbessert Ihr SEO radikal und senkt die Absprungrate Ihrer Kunden.",
       },
       {
-        title: "Mehrsprachige Expertise",
-        desc: "FR / EN / DE / LU Setup für den lokalen Markt.",
+        title: "Natives mehrsprachiges Ökosystem",
+        desc: "Der luxemburgische Markt erfordert Flexibilität. Wir integrieren Französisch, Englisch, Deutsch und Luxemburgisch nativ, damit Ihr Unternehmen kompromisslos in der Sprache all Ihrer Kunden spricht.",
+      },
+      {
+        title: "Mobile-First Design & UX",
+        desc: "Über 80% der lokalen Suchanfragen erfolgen über Smartphones. Unsere Interfaces sind flüssig, intuitiv und elegant gestaltet und bieten auf allen Bildschirmen ein erstklassiges Nutzererlebnis.",
+      },
+      {
+        title: "SEO-Optimierung & Sichtbarkeit",
+        desc: "Eine schöne Website ist nutzlos, wenn sie unsichtbar ist. Wir optimieren die technische Struktur Ihrer Website, damit Google Sie im Großherzogtum natürlich an die Spitze der lokalen Suchergebnisse setzt.",
+      },
+      {
+        title: "Volles Eigentum & Unabhängigkeit",
+        desc: "Im Gegensatz zu klassischen Agenturen bleiben Sie zu 100% Eigentümer Ihres Codes und Ihrer Domain. Keine versteckten Kosten, keine Bindungsabonnements, totale Transparenz.",
+      },
+      {
+        title: "Kontinuierliche Wartung & Entwicklung",
+        desc: "Das Web entwickelt sich schnell. Unser Sorglos-Paket stellt sicher, dass Ihre Website sicher, aktuell und leistungsstark bleibt, mit unbegrenzten Änderungen zur Unterstützung Ihres Geschäftswachstums.",
       },
     ],
     pricing: [
       {
         name: "Start",
         price: "450€",
-        ideal: "Handwerker & Freiberufler. Ideal für den schnellen Start.",
+        ideal: "Handwerker & Freiberufler. Ideal für einen schnellen Start.",
         features: [
           "Geliefert in 7 Tagen",
           "Ultraschnelle One-Page-Website",
@@ -244,12 +292,12 @@ export const translations: Record<Language, TranslationInterface> = {
       ],
     },
     contact: {
-      title: "Kontaktieren Sie mich",
-      name: "Name",
-      email: "Email",
-      message: "Nachricht",
-      send: "Senden",
-      success: "Nachricht erfolgreich gesendet!",
+      title: "Lassen Sie uns über Ihr Projekt sprechen",
+      name: "Vollständiger Name",
+      email: "E-Mail-Adresse",
+      message: "Erzählen Sie uns von Ihrem Anliegen...",
+      send: "Anfrage senden",
+      success: "Ihre Nachricht wurde erfolgreich gesendet!",
     },
   },
   LU: {
@@ -261,12 +309,28 @@ export const translations: Record<Language, TranslationInterface> = {
     recommendedBadge: "Recommandéiert",
     serviceList: [
       {
-        title: "Performance & Design",
-        desc: "Ultraschnell an elegant Websäiten, optimiséiert fir Mobile.",
+        title: "Next-Gen Performance",
+        desc: "Mir entwéckelen Websäite mat de modernsten Technologien fir instant Ladezäiten ze garantéieren. Eng séier Säit verbessert Äre SEO radikal a reduzéiert d'Zuel vun de Clienten, déi d'Säit ze fréi verloossen.",
       },
       {
-        title: "Méisproocheg Expertise",
-        desc: "FR / EN / DE / LU Setup fir de lëtzebuerger Maart.",
+        title: "Native méisproochegen Ökosystem",
+        desc: "De lëtzebuerger Maart erfuerdert Flexibilitéit. Mir integréieren nativ Franséisch, Englesch, Däitsch a Lëtzebuergesch, sou datt Äre Betrib d'Sprooch vun all Äre Cliente schwätzt.",
+      },
+      {
+        title: "Mobile-First Design & UX",
+        desc: "Iwwer 80% vun de lokale Sichanfroe ginn iwwer de Smartphone gemaach. Eis Interfaces si flësseg, intuitiv an elegant, a bidden eng Premium Benotzererfarung op all Bildschierm.",
+      },
+      {
+        title: "SEO Optimisatioun & Visibilitéit",
+        desc: "Eng schéi Websäit ass näischt ouni Visibilitéit. Mir optimiséieren déi technesch Struktur vun Ärer Säit, sou datt Google Iech am Grand-Duché natierlech un d'Spëtzt vun de lokale Sichresultater setzt.",
+      },
+      {
+        title: "Voll Proprietéit & Onofhängegkeet",
+        desc: "Am Géigesaz zu klasseschen Agenture bleift Dir zu 100% Proprietär vun Ärem Code an Ärem Domain. Keng verstoppte Käschten, keng Bindungs-Abonnementer, total Transparenz.",
+      },
+      {
+        title: "Kontinuéierlech Maintenance & Entwécklung",
+        desc: "D'Web entwéckelt sech séier. Eise 'Sérénité'-Pak garantéiert, datt Är Säit sécher, aktuell a performant bleift, mat onlimitéierten Ännerunge fir de Wuesstem vun Ärer Aktivitéit z'ënnerstëtzen.",
       },
     ],
     pricing: [
@@ -317,12 +381,12 @@ export const translations: Record<Language, TranslationInterface> = {
       ],
     },
     contact: {
-      title: "Kontaktéiert mech",
-      name: "Numm",
-      email: "Email",
-      message: "Noricht",
-      send: "Schécken",
-      success: "Noricht gouf geschéckt!",
+      title: "Schwätze mir iwwer Äre Projet",
+      name: "Ganze Numm",
+      email: "E-Mail Adress",
+      message: "Erzielt eis vun Ärem Projet...",
+      send: "Ufro schécken",
+      success: "Äre Message gouf erfollegräich geschéckt!",
     },
   },
 };
