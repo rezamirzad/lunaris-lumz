@@ -6,6 +6,7 @@ export interface TranslationInterface {
   cta: string;
   services: string;
   tarifs: string;
+  techBadge: string; // Nouvelle clé ajoutée
   serviceList: {
     title: string;
     desc: string;
@@ -39,6 +40,7 @@ export const translations: Record<Language, TranslationInterface> = {
     cta: "Démarrer un projet",
     services: "Services",
     tarifs: "Tarifs",
+    techBadge: "ARTISANAT NUMÉRIQUE • LUXEMBOURG 2026",
     recommendedBadge: "Recommandé",
     serviceList: [
       {
@@ -128,6 +130,7 @@ export const translations: Record<Language, TranslationInterface> = {
     cta: "Start a project",
     services: "Services",
     tarifs: "Pricing",
+    techBadge: "DIGITAL CRAFTSMANSHIP • LUXEMBOURG 2026",
     recommendedBadge: "Recommended",
     serviceList: [
       {
@@ -217,6 +220,7 @@ export const translations: Record<Language, TranslationInterface> = {
     cta: "Projekt starten",
     services: "Leistungen",
     tarifs: "Preise",
+    techBadge: "DIGITALES HANDWERK • LUXEMBURG 2026",
     recommendedBadge: "Empfohlen",
     serviceList: [
       {
@@ -241,7 +245,7 @@ export const translations: Record<Language, TranslationInterface> = {
       },
       {
         title: "Kontinuierliche Wartung & Entwicklung",
-        desc: "Das Web entwickelt sich schnell. Unser Sorglos-Paket stellt sicher, dass Ihre Website sicher, aktuell und leistungsstark bleibt, mit unbegrenzten Änderungen zur Unterstützung Ihres Geschäftswachstums.",
+        desc: "Das Web entwickelt sich schnell. Unser Sorglos-Paket stellt sicher, dass Ihre Website sicher, aktuell und leistungsstark bleibt, mit unbegrenzten Änderungen zur Unterstützung Ihres Geschäftswachums.",
       },
     ],
     pricing: [
@@ -306,6 +310,7 @@ export const translations: Record<Language, TranslationInterface> = {
     cta: "E Projet starten",
     services: "Servicer",
     tarifs: "Präisser",
+    techBadge: "DIGITAL HANDWIERK • LËTZEBUERG 2026",
     recommendedBadge: "Recommandéiert",
     serviceList: [
       {
