@@ -9,7 +9,9 @@ Follow these steps when you clone this template to start a new project from scra
 Install all dependencies for the entire monorepo (Frontend & Backend) from the root directory:
 
 Bash
-npm install 2. Environment Setup
+npm install
+
+2. Environment Setup
 
 Create local environment files by copying the examples. These files are ignored by Git to keep your secrets safe.
 
@@ -20,11 +22,14 @@ cp frontend/.env.example frontend/.env.local
 Backend:
 
 Bash
-cp backend/.env.example backend/.env 3. Running the Project
+cp backend/.env.example backend/.env
+
+3. Running the Project
 
 You can launch both services simultaneously using the root workspace commands, or run them in separate terminals for better log visibility:
 
-Option A: Separate Terminals (Recommended)
+Option A:
+Separate Terminals (Recommended)
 
 Backend: cd backend && npm run dev (Runs on port 3001)
 

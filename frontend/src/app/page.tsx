@@ -1,27 +1,38 @@
 "use client";
 
-import HelloWorld from "./components/HelloWorld";
+import { useState } from "react";
+import { translations, Language } from "@/lib/translations";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import Pricing from "@/components/Pricing";
+import Footer from "@/components/Footer";
 
 export default function Home() {
-  return (
-    <div className="min-h-screen bg-black text-white font-sans flex items-center justify-center p-6">
-      <main className="max-w-md w-full animate-in fade-in zoom-in duration-700">
-        <HelloWorld />
+  // État pour gérer la langue (FR par défaut)
+  const [lang, setLang] = useState<Language>("FR");
 
-        <div className="mt-8 flex justify-center gap-6">
-          <div className="text-[10px] font-black text-gray-600 uppercase tracking-widest">
-            Next.js 14
-          </div>
-          <div className="w-px h-3 bg-gray-800" />
-          <div className="text-[10px] font-black text-gray-600 uppercase tracking-widest">
-            Tailwind CSS
-          </div>
-          <div className="w-px h-3 bg-gray-800" />
-          <div className="text-[10px] font-black text-gray-600 uppercase tracking-widest">
-            TypeScript
-          </div>
-        </div>
+  // Récupération des traductions correspondantes
+  const t = translations[lang];
+
+  return (
+    <div className="min-h-screen bg-black text-white font-sans">
+      {/* Barre de navigation avec sélecteur de langue */}
+      <Navbar currentLang={lang} setLang={setLang} t={t} />
+
+      <main>
+        {/* Section d'accueil (Hero) */}
+        <Hero t={t} />
+
+        {/* Section des services proposés */}
+        <Services t={t} />
+
+        {/* Grille tarifaire "Prix Voisin" */}
+        <Pricing t={t} />
       </main>
+
+      {/* Pied de page technique */}
+      <Footer />
     </div>
   );
 }
