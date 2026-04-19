@@ -77,7 +77,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "Livré en 7 jours",
           "Site One-Page ultra-rapide",
           "Optimisation SEO Local",
-          "Support de proximité (Luxembourg)",
         ],
       },
       {
@@ -88,7 +87,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "Multi-pages (jusqu'à 5)",
           "Multilingue (FR/EN/DE/LU)",
           "Formulaire de contact avancé",
-          "Support de proximité (Luxembourg)",
         ],
       },
       {
@@ -99,7 +97,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "E-commerce & Paiements",
           "Système de réservation",
           "Base de données sur mesure",
-          "Support de proximité (Luxembourg)",
         ],
       },
     ],
@@ -164,7 +161,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "Delivered in 7 days",
           "Ultra-fast One-Page site",
           "Local SEO Optimization",
-          "Local support (Luxembourg)",
         ],
       },
       {
@@ -175,7 +171,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "Multi-page (up to 5)",
           "Multilingual (FR/EN/DE/LU)",
           "Advanced contact form",
-          "Local support (Luxembourg)",
         ],
       },
       {
@@ -186,7 +181,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "E-commerce & Payments",
           "Booking system",
           "Custom database",
-          "Local support (Luxembourg)",
         ],
       },
     ],
@@ -251,7 +245,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "Geliefert in 7 Tagen",
           "Ultraschnelle One-Page-Website",
           "Lokale SEO-Optimierung",
-          "Lokaler Support (Luxemburg)",
         ],
       },
       {
@@ -262,7 +255,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "Mehrseitig (bis zu 5)",
           "Mehrsprachig (FR/EN/DE/LU)",
           "Erweitertes Kontaktformular",
-          "Lokaler Support (Luxemburg)",
         ],
       },
       {
@@ -273,7 +265,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "E-Commerce & Zahlungen",
           "Buchungssystem",
           "Individuelle Datenbank",
-          "Lokaler Support (Luxemburg)",
         ],
       },
     ],
@@ -338,7 +329,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "Geliwwert a 7 Deeg",
           "Ultraschnell One-Page Websäit",
           "Lokale SEO Setup",
-          "Support vu hei (Lëtzebuerg)",
         ],
       },
       {
@@ -349,7 +339,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "Méisäiteg (bis zu 5 Säiten)",
           "Méisproocheg (FR/EN/DE/LU)",
           "Erweiderten Kontaktformular",
-          "Support vu hei (Lëtzebuerg)",
         ],
       },
       {
@@ -360,7 +349,6 @@ export const translations: Record<Language, TranslationInterface> = {
           "E-Commerce & Bezuelungen",
           "Booking System",
           "Datebank op Mooss",
-          "Support vu hei (Lëtzebuerg)",
         ],
       },
     ],
