@@ -1,3 +1,5 @@
+// frontend/src/lib/translations.ts
+
 export type Language = "FR" | "EN" | "DE" | "LU";
 
 export interface TranslationInterface {
@@ -6,7 +8,13 @@ export interface TranslationInterface {
   cta: string;
   services: string;
   tarifs: string;
-  techBadge: string; // Nouvelle clé ajoutée
+  techBadge: string;
+  portfolioTitle: string;
+  projects: {
+    title: string;
+    desc: string;
+    link: string;
+  }[];
   serviceList: {
     title: string;
     desc: string;
@@ -41,6 +49,24 @@ export const translations: Record<Language, TranslationInterface> = {
     services: "Services",
     tarifs: "Tarifs",
     techBadge: "ARTISANAT NUMÉRIQUE • LUXEMBOURG 2026",
+    portfolioTitle: "Nos Réalisations",
+    projects: [
+      {
+        title: "Aura Inc",
+        desc: "Site vitrine élégant et minimaliste.",
+        link: "https://aura-inc.vercel.app/",
+      },
+      {
+        title: "Alex Trace",
+        desc: "Portfolio interactif haute performance.",
+        link: "https://alex-trace.vercel.app/",
+      },
+      {
+        title: "Lumens Labs",
+        desc: "Dashboard analytique complexe et intuitif.",
+        link: "https://lumens-labs-dashboard.vercel.app/",
+      },
+    ],
     recommendedBadge: "Recommandé",
     serviceList: [
       {
@@ -125,6 +151,24 @@ export const translations: Record<Language, TranslationInterface> = {
     services: "Services",
     tarifs: "Pricing",
     techBadge: "DIGITAL CRAFTSMANSHIP • LUXEMBOURG 2026",
+    portfolioTitle: "Our Work",
+    projects: [
+      {
+        title: "Aura Inc",
+        desc: "Elegant and minimalist showcase site.",
+        link: "https://aura-inc.vercel.app/",
+      },
+      {
+        title: "Alex Trace",
+        desc: "High-performance interactive portfolio.",
+        link: "https://alex-trace.vercel.app/",
+      },
+      {
+        title: "Lumens Labs",
+        desc: "Complex and intuitive analytical dashboard.",
+        link: "https://lumens-labs-dashboard.vercel.app/",
+      },
+    ],
     recommendedBadge: "Recommended",
     serviceList: [
       {
@@ -209,6 +253,24 @@ export const translations: Record<Language, TranslationInterface> = {
     services: "Leistungen",
     tarifs: "Preise",
     techBadge: "DIGITALES HANDWERK • LUXEMBURG 2026",
+    portfolioTitle: "Unsere Projekte",
+    projects: [
+      {
+        title: "Aura Inc",
+        desc: "Elegante und minimalistische Showcase-Website.",
+        link: "https://aura-inc.vercel.app/",
+      },
+      {
+        title: "Alex Trace",
+        desc: "Interaktives Hochleistungs-Portfolio.",
+        link: "https://alex-trace.vercel.app/",
+      },
+      {
+        title: "Lumens Labs",
+        desc: "Komplexes und intuitives Analyse-Dashboard.",
+        link: "https://lumens-labs-dashboard.vercel.app/",
+      },
+    ],
     recommendedBadge: "Empfohlen",
     serviceList: [
       {
@@ -293,6 +355,24 @@ export const translations: Record<Language, TranslationInterface> = {
     services: "Servicer",
     tarifs: "Präisser",
     techBadge: "DIGITAL HANDWIERK • LËTZEBUERG 2026",
+    portfolioTitle: "Eis Projeten",
+    projects: [
+      {
+        title: "Aura Inc",
+        desc: "Elegant a minimalistesch Websäit.",
+        link: "https://aura-inc.vercel.app/",
+      },
+      {
+        title: "Alex Trace",
+        desc: "Interaktive Portfolio mat héijer Performance.",
+        link: "https://alex-trace.vercel.app/",
+      },
+      {
+        title: "Lumens Labs",
+        desc: "Komplext an intuitivt Dashboard fir Analysen.",
+        link: "https://lumens-labs-dashboard.vercel.app/",
+      },
+    ],
     recommendedBadge: "Recommandéiert",
     serviceList: [
       {
@@ -309,7 +389,7 @@ export const translations: Record<Language, TranslationInterface> = {
       },
       {
         title: "SEO Optimisatioun & Visibilitéit",
-        desc: "Eng schéi Websäit ass näischt ouni Visibilitéit. Mir optimiséieren déi technesch Struktur vun Ärer Säit, sou datt Google Iech am Grand-Duché natierlech un d'Spëtzt vun de lokale Sichresultater setzt.",
+        desc: "Eng schéi Websäit ass näischt ouni Visibilitéit. Mir optimiséieren déi technesch Struktur vun Ärer Säit, sou datt Google Iech am Grand-Duché natierlech un d'Spëtët vun de lokale Sichresultater setzt.",
       },
       {
         title: "Voll Proprietéit & Onofhängegkeet",
