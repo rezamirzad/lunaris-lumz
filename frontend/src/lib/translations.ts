@@ -1,5 +1,3 @@
-// frontend/src/lib/translations.ts
-
 export type Language = "FR" | "EN" | "DE" | "LU";
 
 export interface TranslationInterface {
@@ -9,7 +7,8 @@ export interface TranslationInterface {
   services: string;
   tarifs: string;
   techBadge: string;
-  portfolioTitle: string;
+  portfolioLabel: string; // Key for Navbar
+  portfolioTitle: string; // Key for Section Title
   projects: {
     title: string;
     desc: string;
@@ -49,6 +48,7 @@ export const translations: Record<Language, TranslationInterface> = {
     services: "Services",
     tarifs: "Tarifs",
     techBadge: "ARTISANAT NUMÉRIQUE • LUXEMBOURG 2026",
+    portfolioLabel: "Portfolio",
     portfolioTitle: "Nos Réalisations",
     projects: [
       {
@@ -136,7 +136,7 @@ export const translations: Record<Language, TranslationInterface> = {
       ],
     },
     contact: {
-      title: "Parlons de votre projet",
+      title: "Contact",
       name: "Nom complet",
       email: "Adresse e-mail",
       message: "Parlez-nous de votre besoin...",
@@ -151,6 +151,7 @@ export const translations: Record<Language, TranslationInterface> = {
     services: "Services",
     tarifs: "Pricing",
     techBadge: "DIGITAL CRAFTSMANSHIP • LUXEMBOURG 2026",
+    portfolioLabel: "Portfolio",
     portfolioTitle: "Our Work",
     projects: [
       {
@@ -238,7 +239,7 @@ export const translations: Record<Language, TranslationInterface> = {
       ],
     },
     contact: {
-      title: "Let's talk about your project",
+      title: "Contact",
       name: "Full Name",
       email: "Email Address",
       message: "Tell us about your needs...",
@@ -253,6 +254,7 @@ export const translations: Record<Language, TranslationInterface> = {
     services: "Leistungen",
     tarifs: "Preise",
     techBadge: "DIGITALES HANDWERK • LUXEMBURG 2026",
+    portfolioLabel: "Portfolio",
     portfolioTitle: "Unsere Projekte",
     projects: [
       {
@@ -340,7 +342,7 @@ export const translations: Record<Language, TranslationInterface> = {
       ],
     },
     contact: {
-      title: "Lassen Sie uns über Ihr Projekt sprechen",
+      title: "Kontakt",
       name: "Vollständiger Name",
       email: "E-Mail-Adresse",
       message: "Erzählen Sie uns von Ihrem Anliegen...",
@@ -355,6 +357,7 @@ export const translations: Record<Language, TranslationInterface> = {
     services: "Servicer",
     tarifs: "Präisser",
     techBadge: "DIGITAL HANDWIERK • LËTZEBUERG 2026",
+    portfolioLabel: "Portfolio",
     portfolioTitle: "Eis Projeten",
     projects: [
       {
@@ -442,7 +445,7 @@ export const translations: Record<Language, TranslationInterface> = {
       ],
     },
     contact: {
-      title: "Schwätze mir iwwer Äre Projet",
+      title: "Kontakt",
       name: "Ganze Numm",
       email: "E-Mail Adress",
       message: "Erzielt eis vun Ärem Projet...",

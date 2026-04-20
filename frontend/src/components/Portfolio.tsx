@@ -37,7 +37,7 @@ export default function Portfolio({ t }: { t: TranslationInterface }) {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth={2}
-                      d="Ref-17 8l4 4m0 0l-4 4m4-4H3"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
                 </div>

@@ -7,7 +7,7 @@ const Footer = ({ t }: { t: TranslationInterface }) => {
       {/* Section Logo & Slogan */}
       <div className="text-center">
         <div className="text-white text-xl font-black tracking-tighter mb-2">
-          LUNARIS <span className="text-blue-500">- LUMZ</span>
+          <span className="text-blue-500">LUMZ</span>
         </div>
         <p className="text-[10px] text-gray-500 uppercase tracking-[0.3em]">
           Luxembourg Digital Craft
