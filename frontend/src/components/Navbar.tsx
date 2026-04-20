@@ -14,30 +14,29 @@ export default function Navbar({ currentLang, setLang, t }: NavbarProps) {
         <div className="text-xl font-bold tracking-tighter">{t.heroTitle}</div>
 
         {/* Links & Lang Switcher */}
-        <div className="flex items-center gap-6">
-          <div className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-400">
+        <div className="flex items-center gap-4 md:gap-6">
+          {/* Removed 'hidden' to ensure visibility on mobile, adjusted gap for smaller screens */}
+          <div className="flex items-center gap-3 md:gap-6 text-[10px] md:text-sm font-medium text-gray-400">
             <a href="#services" className="hover:text-white transition-colors">
               {t.services}
             </a>
-            {/* Portfolio Link */}
             <a href="#portfolio" className="hover:text-white transition-colors">
               {t.portfolioLabel}
             </a>
             <a href="#pricing" className="hover:text-white transition-colors">
               {t.tarifs}
             </a>
-            {/* Restored Contact Link */}
             <a href="#contact" className="hover:text-white transition-colors">
               {t.contact.title}
             </a>
           </div>
 
-          <div className="flex bg-white/5 rounded-lg p-1 border border-white/10">
+          <div className="flex bg-white/5 rounded-lg p-1 border border-white/10 shrink-0">
             {(["FR", "EN", "DE", "LU"] as Language[]).map((l) => (
               <button
                 key={l}
                 onClick={() => setLang(l)}
-                className={`px-2 py-1 text-xs rounded transition-all ${
+                className={`px-1.5 md:px-2 py-1 text-[10px] md:text-xs rounded transition-all ${
                   currentLang === l
                     ? "bg-white text-black"
                     : "hover:bg-white/10"
